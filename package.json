@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server/index.js"
   },
